@@ -1,0 +1,123 @@
+#navbar-top-section .fa {
+  font-size: 20px;
+  padding: 0px 5px 0px 5px;
+  color: #fff; }
+
+#navbar-top-section .float-right {
+  padding-bottom: 0px !important; }
+
+#main-nav .navbar-brand {
+  font-size: 2.25rem !important; }
+
+#main-nav ul li:hover {
+  border-top: 3px solid #148da0; }
+
+#myCarousel .carousel-item {
+  height: 500px; }
+
+#myCarousel .carousel-img-1 {
+  background: url("../img/slide1.png");
+  background-size: cover; }
+
+#myCarousel .carousel-img-2 {
+  background: url("../img/slide2.png");
+  background-size: cover; }
+
+#myCarousel .carousel-img-3 {
+  background: url("../img/slide3.png");
+  background-size: cover; }
+
+#myCarousel .carousel-caption {
+  margin-bottom: 90px; }
+
+#big-btn-section a {
+  color: #fff;
+  text-decoration: none; }
+
+#big-btn-section .sec1 {
+  background: #17a2b8; }
+
+#big-btn-section .sec1:hover {
+  color: #fff;
+  background: #097687; }
+
+#big-btn-section .sec2 {
+  color: #fff;
+  background: #007bff; }
+
+#big-btn-section .sec2:hover {
+  background: #104987; }
+
+#our-recent-work {
+  background: #c2e1ff; }
+  #our-recent-work img {
+    height: 230px; }
+  #our-recent-work .fa-minus {
+    font-size: 80px;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important; }
+
+#about-us {
+  background: #a2cdd3; }
+  #about-us .map {
+    height: auto;
+    background: url("../img/home_charity2_map.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+#accordion {
+  background: #BAF3FF;
+  padding-top: 70px;
+  padding-bottom: 90px; }
+  #accordion a {
+    color: #000;
+    text-decoration: none; }
+
+#team-section {
+  background: #c2e1ff;
+  padding-top: 50px;
+  padding-bottom: 90px; }
+  #team-section .col-md-3 p {
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 40px; }
+
+#footer-section {
+  padding: 80px 0px; }
+  #footer-section li {
+    list-style-type: none;
+    padding: 4px 0px; }
+    #footer-section li .fa {
+      margin-right: 8px; }
+    #footer-section li a {
+      color: #fff;
+      text-decoration: none; }
+
+@media (max-width: 992px) {
+  #main-nav .form-inline a {
+    display: none !important; } }
+
+@media (max-width: 768px) {
+  #navbar-top-section .float-left {
+    display: block !important;
+    text-align: center !important;
+    float: none !important; }
+  #navbar-top-section .float-right {
+    display: block !important;
+    text-align: center !important;
+    float: none !important; }
+  #main-nav .form-inline a {
+    display: none !important; } }
+
+@media (max-width: 767px) {
+  #about-us .map {
+    height: 500px; } }
+
+@media (max-width: 550px) {
+  #about-us .map {
+    height: 500px; }
+  #navbar-top-section .float-right {
+    display: none !important; }
+  #navbar-top-section .float-left .fa-envelope {
+    display: block !important;
+    text-align: center !important; } }
